@@ -1,0 +1,79 @@
+@font-face
+{
+	font-family: Lato;
+	src: url(Lato-Light.ttf);
+}
+
+body
+{
+	color: #4B4D52;
+	background-color: #7A9A95;
+	font-family: Lato;
+}
+
+div
+{
+	color: #EF6D3B;
+	text-align: center;
+}
+
+img
+{
+	width: 720px;
+	height: 400px;
+}
+
+p
+{
+	font-size: 1.5em;
+}
+
+.header
+{
+	background-color: #3F2260;
+	height: 70px;
+	margin-left: -8px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+.middlePart
+{
+	margin-top: 100px;
+	margin-left: 285px;
+}
+
+.footer
+{
+	background-color: #3F2260;
+	height: 70px;
+	margin-left: -8px;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+}
+
+#theSlider
+{
+    width: 720px;
+    height: 400px;
+    overflow: hidden;
+}
+
+#theSlider .slides
+{
+    display: block;
+    width: 6000px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+#theSlider .slide
+{
+    float: left;
+    list-style-type: none;
+    width: 720px;
+    height: 400px;
+}
